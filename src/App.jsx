@@ -8,13 +8,13 @@ function App() {
     <Fragment>
       <Container className="custom-con" fluid>
         <Row className="gx-0">
-          <Col lg={6} md={6} sm={12} className=" mt-5">
-            <div className="w-100">
+          <Col lg={6} md={12} sm={12} className=" mt-5">
+            <div>
               <div className="bg-left"></div>
             </div>
           </Col>
-          <Col lg={5} md={6} sm={12} className="mt-5">
-            <div className="mt-5">
+          <Col lg={6} md={12} sm={12} className="mt-5">
+            <div className="mt-5 me-5">
               <h2 className="fw-b my-3">About Us</h2>
               <h5 className="ff">Sample Headline</h5>
               <p className="mt-4 line-h">
@@ -36,10 +36,9 @@ function App() {
                 </a>
               </p>
 
-              <button className="custom-btn mb-3">CONTACT US</button>
+              <button className="custom-btn">CONTACT US</button>
             </div>
           </Col>
-          <Col lg={1} md={12} sm={12}></Col>
         </Row>
 
         <div className="siz mx-auto">
