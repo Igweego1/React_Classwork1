@@ -1,3 +1,4 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); */
 .custom-con {
   background-image: url("./assets/img/bg_color.jpg");
   background-repeat: no-repeat;
@@ -19,11 +20,15 @@
 .fw-b {
   font-weight: bolder;
   font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+}
+.ff {
+  font-family: "Montserrat", sans-serif;
 }
 .line-h {
-  line-height: 20rem !important;
+  line-height: 2rem !important;
   margin-right: 20px;
-  font-family: sans-serif !important;
+  font-family: "Montserrat", sans-serif;
 }
 .custom-btn {
   background-color: black;
@@ -33,7 +38,10 @@
   height: 4rem;
   border: 0;
 }
-
+.img-siz {
+  width: 18px !important;
+  height: 18px !important;
+}
 .text-color-dark {
   color: black;
 }

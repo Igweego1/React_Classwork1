@@ -1,4 +1,5 @@
 import "./App.css";
+import IMAGES from "./assets/img/image";
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Fragment } from "react";
 
@@ -15,8 +16,8 @@ function App() {
           <Col lg={5} md={6} sm={12} className="mt-5">
             <div className="mt-5">
               <h2 className="fw-b my-3">About Us</h2>
-              <h5>Sample Headline</h5>
-              <p className="mt-4 line-hb">
+              <h5 className="ff">Sample Headline</h5>
+              <p className="mt-4 line-h">
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth
                 too. Comfort produce husband boy her had hearing. Law others
@@ -25,7 +26,7 @@ function App() {
                 Oh feel if up to till like.
               </p>
 
-              <p className="my-4">
+              <p className="my-3 ff">
                 Image from{" "}
                 <a
                   className="text-color-dark"
@@ -35,7 +36,7 @@ function App() {
                 </a>
               </p>
 
-              <button className="custom-btn">CONTACT US</button>
+              <button className="custom-btn mb-3">CONTACT US</button>
             </div>
           </Col>
           <Col lg={1} md={12} sm={12}></Col>
@@ -51,7 +52,10 @@ function App() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title>CALL US</Card.Title>
+                  <Card.Title>
+                    <Card.Img className="img-siz" src={IMAGES.phone} />
+                    <span className="ms-1">CALL US</span>
+                  </Card.Title>
                   <Card.Text>
                     <p className="pt-1">
                       1 (234) 567-891, <br></br>1 (234) 987-654
@@ -69,7 +73,10 @@ function App() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title>LOCATION</Card.Title>
+                  <Card.Title>
+                    <Card.Img className="img-siz" src={IMAGES.location} />
+                    <span className="ms-1">LOCATION</span>
+                  </Card.Title>
                   <Card.Text>
                     <p className="pt-1">
                       121 Rock Sreet, 21 Avenue, New York, NY 92103-9000
@@ -87,7 +94,10 @@ function App() {
                 }}
               >
                 <Card.Body>
-                  <Card.Title>HOURS</Card.Title>
+                  <Card.Title className="d-flex gap-2">
+                    <Card.Img className="img-siz" src={IMAGES.clock} />
+                    <span>HOURS</span>
+                  </Card.Title>
                   <Card.Text>
                     <p className="pt-1">
                       Mon – Fri …… 11 am – 8 pm, Sat, Sun&nbsp;&nbsp;…… 6 am – 8
