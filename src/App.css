@@ -64,3 +64,22 @@
   background-size: cover;
   height: 20vh;
 }
+
+@media (max-width: 991px) {
+  .row-reverse {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .ms-7 {
+    margin-left: 27px !important;
+  }
+  .bg-left {
+    height: 270px !important;
+  }
+}
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+}

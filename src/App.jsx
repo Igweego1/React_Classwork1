@@ -7,13 +7,13 @@ function App() {
   return (
     <Fragment>
       <Container className="custom-con" fluid>
-        <Row className="gx-0">
+        <Row className="gx-0 row-reverse">
           <Col lg={6} md={12} sm={12} className=" mt-5">
             <div>
               <div className="bg-left"></div>
             </div>
           </Col>
-          <Col lg={6} md={12} sm={12} className="mt-5">
+          <Col lg={6} md={12} sm={12} className="mt-5 ms-7">
             <div className="mt-5 me-5">
               <h2 className="fw-b my-3">About Us</h2>
               <h5 className="ff">Sample Headline</h5>
