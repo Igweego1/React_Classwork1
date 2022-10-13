@@ -78,8 +78,21 @@
     height: 270px !important;
   }
 }
+
 @media (max-width: 768px) {
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (max-width: 360px) {
+  .bg-left {
+    height: 190px !important;
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .bg-left {
+    width: 100%;
+    height: 500px !important;
+    margin-top: 50px !important;
+  }
 }
